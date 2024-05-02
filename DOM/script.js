@@ -13,13 +13,15 @@ function teste() {
   console.log("Clicou em ", h3Selecionado);
 }
 
+//ATIVIDADE
 // Retorne o url da página atual utilizando o objeto window
-const href = "http://127.0.0.1:5500";
+
+const hrefPagina = window.location.href;
+console.log(hrefPagina);
 
 console.log(href);
 
-// Seleciona o primeiro elemento da página que
-// possua a classe ativo
+// Seleciona o primeiro elemento da página que possua a classe ativo
 const elementoAtivo = document.querySelector(".ativo");
 
 // Retorne a linguagem do navegador
